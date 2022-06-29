@@ -1,0 +1,8 @@
+.cuerpo{
+    height: 300px;
+    background-color: #EDF7F6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
