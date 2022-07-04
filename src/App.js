@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Welcome from './components/Welcome';
-import CartWidget from './components/CartWidget';
+import Contador from './components/ItemCount';
+import ItemListContainer from './components/ItemListContainer';
 
 
 
@@ -15,6 +16,9 @@ function App() {
       <Navbar>
 
       </Navbar>
+      <ItemListContainer/>
+      
+      
 
       {/* <Welcome name="Martin" /> */}
       <Body />
